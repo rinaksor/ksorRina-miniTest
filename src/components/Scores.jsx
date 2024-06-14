@@ -1,6 +1,6 @@
 import React from "react";
 
-function Scores(courseName, courseResults) {
+function Scores({courseName, courseResults}) {
     return (
         <main className="scores-container">
         <div class="scores">
