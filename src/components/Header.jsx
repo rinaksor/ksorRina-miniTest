@@ -1,4 +1,6 @@
-function header({batchName}) {
+import React from "react";
+
+function Header({batchName}) {
   return (
     <header id="header">
       <img src={pnLogo} alt="PN Logo" />
@@ -7,4 +9,4 @@ function header({batchName}) {
   );
 }
 
-export default header;
+export default Header;
